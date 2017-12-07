@@ -1,0 +1,20 @@
+{
+  "appName": "CallMine",
+  "nav": [
+    {
+      "name": "About",
+      "url": "/about"
+    }
+  ],
+  "demo": {
+    "events": [{
+      "time": "00:50",
+      "type": "tag",
+      "value": "ciao"
+    }, {
+      "time": "00:10",
+      "type": "nps",
+      "value": 20
+    }]
+  }
+}

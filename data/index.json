@@ -1,0 +1,303 @@
+{
+	"2": {
+		"sentence": {
+			"user": "operator",
+			"content": "Goedemorgen, Sunshine klantenservice u spreekt met Henk"
+		}
+	},
+	"6": {
+		"sentence": {
+			"user": "customer",
+			"content": "Hallo goedemorgen u spreekt met mevrouw De Vries."
+		}
+	},
+	"8": {
+		"feedback": {
+			"id": 1,
+			"type": "userdata",
+			"content": {
+				"name": "De Vries"
+			}
+		}
+	},
+	"10": {
+		"sentence": {
+			"user": "customer",
+			"content": "Ik heb een probleem om op internet te komen en ik kon het niet vinden op jullie website. Mijn telefoon kan geen verbinding maken meer ineens."
+		},
+		"tags": {
+			"add": [{
+				"color": 2,
+				"text": "Internet"
+			}]
+		}
+	},
+	"13": {
+		"tags": {
+			"add": [{
+				"text": "Website gezocht"
+			}]
+		}
+	},
+	"16": {
+		"tags": {
+			"add": [{
+				"text": "Telefoon"
+			}, {
+				"color": 3,
+				"text": "Geen verbinding"
+			}]
+		}
+	},
+	"17": {
+		"sentence": {
+			"user": "operator",
+			"content": "O, dan gaan we dat voor u oplossen. Mag ik van u uw klantnummer?"
+		},
+		"nps": "-30",
+		"sentiment": "-10"
+	},
+	"24": {
+		"sentence": {
+			"user": "customer",
+			"content": "Zeker, dat is 37582"
+		}
+	},
+	"26": {
+		"tags": {
+			"add": [{
+				"text": "Klant 37582"
+			}]
+		},
+		"feedback": {
+			"id": 1,
+			"type": "userdata",
+			"content": {
+				"name": "Mevr. Irene de Vries",
+				"number": "37582",
+				"date": "14 november 2006",
+				"product": "Sunshine Model X"
+			}
+		}
+	},
+	"28": {
+		"sentence": {
+			"user": "operator",
+			"content": "Dank u wel. Gaat het dus om de Sunshine Model X als ik het goed begrijp?"
+		}
+	},
+	"30": {
+		"sentence": {
+			"user": "customer",
+			"content": "Inderdaad"
+		},
+		"tags": {
+			"add": [{
+				"text": "Model X"
+			}]
+		}
+	},
+	"33": {
+		"sentence": {
+			"user": "operator",
+			"content": "Ah ok. Wilt u verbinden via de WiFi of het mobiele netwerk?"
+		},
+		"sentiment": "+30",
+		"feedback": {
+			"id": 2,
+			"type": "question",
+			"title": "Vraag",
+			"content": "Wifi netwerk of mobiel netwerk?"
+		}
+	},
+	"37": {
+		"sentence": {
+			"user": "customer",
+			"content": "De wifi"
+		},
+		"tags": {
+			"add": [{
+				"text": "Wifi",
+				"color": 3
+			}]
+		}
+	},
+	"40": {
+		"sentence": {
+			"user": "operator",
+			"content": "Ziet u het wifi-symbool verschijnen op uw telefoon?"
+		}
+	},
+	"43": {
+		"sentence": {
+			"user": "customer",
+			"content": "Even kijken, nee ik zie geen wifi symbool."
+		}
+	},
+	"45": {
+		"feedback": {
+			"id": 3,
+			"type": "list",
+			"title": "Mogelijkheden",
+			"content": "wifi uitgeschakeld, router uitgeschakeld, buiten bereik"
+		}
+	},
+	"47": {
+		"sentence": {
+			"user": "operator",
+			"content": "Staat de wifi op uw telefoon ingeschakeld en staat deze niet op de vliegtuigmodus?"
+		}
+	},
+	"52": {
+		"sentence": {
+			"user": "customer",
+			"content": "Ja wifi, is wel ingeschakeld."
+		}
+	},
+	"54": {
+		"sentence": {
+			"user": "operator",
+			"content": "O. Ziet u ook uw eigen wifi netwerk in de lijst terug?"
+		},
+		"feedback": {
+			"id": 3,
+			"type": "list",
+			"title": "Mogelijkheden",
+			"content": "router uitgeschakeld, buiten bereik"
+		}
+	},
+	"58": {
+		"sentence": {
+			"user": "customer",
+			"content": "Nee, die zie ik vreemd genoeg niet."
+		},
+		"feedback": {
+			"id": 4,
+			"type": "question",
+			"title": "Vraag",
+			"content": "Voldoende dicht bij router?"
+		}
+	},
+	"62": {
+		"sentence": {
+			"user": "operator",
+			"content": "Bent u wel voldoende in de buurt bij uw wifi-router?"
+		}
+	},
+	"65": {
+		"sentence": {
+			"user": "customer",
+			"content": "Dat weet ik niet zeker, ik sta op dit moment in de tuin vanwege het lekkere weer."
+		}
+	},
+	"70": {
+		"sentence": {
+			"user": "operator",
+			"content": "Ok. Kunt u in dat geval even richting uw huis lopen?"
+		}
+	},
+	"74": {
+		"sentence": {
+			"user": "customer",
+			"content": "Dat is goed… Ah! Ik zie dat de wifi het weer doet."
+		},
+		"nps": "+20",
+		"feedback": {
+			"id": 6,
+			"type": "list",
+			"title": "Waarschijnlijk probleem",
+			"content": "Onvoldoende signaal op locatie."
+		}
+	},
+	"76": {
+		"sentiment": "+20",
+		"tags": {
+			"add": [{
+				"text": "Probleem opgelost",
+				"color": 3
+			}, {
+				"text": "Signaalsterkte",
+				"color": 2
+			}]
+		},
+		"feedback": {
+			"id": 5,
+			"type": "question",
+			"title": "Suggestie",
+			"content": "Bied wifi versterker aan"
+		}
+	},
+	"79": {
+		"sentence": {
+			"user": "operator",
+			"content": "Dat is goed te horen mevrouw. Als u het wilt kan ik ervoor zorgen dat u een wifi-versterker toegezonden krijgt. Op die manier heeft u ook op de wat verder gelegen plekken prima verbinding."
+		}
+	},
+	"89": {
+		"sentence": {
+			"user": "customer",
+			"content": "Dat klinkt interessant, wat zijn de kosten hiervan? "
+		},
+		"feedback": {
+			"id": 7,
+			"type": "product",
+			"title": "Product Suggestie"
+		},
+		"nps": "+10"
+	},
+	"92": {
+		"sentence": {
+			"user": "operator",
+			"content": "Vanaf € 59 heeft u al een uitstekende versterker die voldoende zou moeten zijn."
+		}
+	},
+	"97": {
+		"sentence": {
+			"user": "customer",
+			"content": "Hartelijk dank, nou dan wil ik die meteen bestellen.."
+		},
+		"nps": "+10",
+		"tags": {
+			"add": [{
+				"text": "Cross sell"
+			}]
+		}
+	},
+	"100": {
+		"sentence": {
+			"user": "operator",
+			"content": "Uitstekend, ik zal het direct voor u regelen en u zult hem morgen al ontvangen."
+		},
+		"feedback": {
+			"id": 8,
+			"type": "question",
+			"title": "Vraag",
+			"content": "Verdere vragen?"
+		}
+	},
+	"104": {
+		"sentence": {
+			"user": "operator",
+			"content": "Heeft u verder nog vragen?"
+		}
+	},
+	"106": {
+		"sentence": {
+			"user": "customer",
+			"content": "Nee, mijn probleem is opgelost"
+		},
+		"nps": "+10"
+	},
+	"108": {
+		"sentence": {
+			"user": "customer",
+			"content": "Bedankt voor uw hulp!"
+		}
+	},
+	"110": {
+		"sentence": {
+			"user": "operator",
+			"content": "Graag gedaan en tot ziens!"
+		}
+	}
+}
